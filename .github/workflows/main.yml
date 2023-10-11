@@ -38,4 +38,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./ftp-test/          
-          server-dir: /public_html/wp-content/ftp-stuff/
+          server-dir: /wp-content/ftp-stuff/
